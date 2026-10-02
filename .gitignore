@@ -1,0 +1,25 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local output and archives
+audio/
+*.mp3
+*.wav
+*.log
+*.zip
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
